@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0370" tests="6" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-03-02T04:14:39" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="express_recipes_pagination" timestamp="2022-03-02T04:14:39" tests="6" file="/Volumes/Untitled/projects/acsa/acsa-technical-test-nodejs-basic-1/test/index.spec.js" time="0.0370" failures="0">
+    <testcase name="express_recipes_pagination Should return 200 for /recipes with default pagination" time="0.0240" classname="Should return 200 for /recipes with default pagination">
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when only page is set in query" time="0.0030" classname="Should respond with correct data when only page is set in query">
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when only limit is set in query" time="0.0020" classname="Should respond with correct data when only limit is set in query">
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are set in query - 1" time="0.0020" classname="Should respond with correct data when both limit and page are set in query - 1">
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are set in query - 2" time="0.0030" classname="Should respond with correct data when both limit and page are set in query - 2">
+    </testcase>
+    <testcase name="express_recipes_pagination Should respond with correct data when both limit and page are out of bounds" time="0.0030" classname="Should respond with correct data when both limit and page are out of bounds">
+    </testcase>
+  </testsuite>
+</testsuites>
